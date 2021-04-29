@@ -17,7 +17,7 @@
 Interpretador::Interpretador(){
 
 }
-std::vector<FiguraGeometrica*> Interpretador::parse(std::string endereco_arquivo){
+std::vector<FiguraGeometrica*> Interpretador::parse(std::string file_name){
 std::vector<FiguraGeometrica*> figs;
 
     std::ifstream fin;
